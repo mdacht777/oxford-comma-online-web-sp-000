@@ -8,7 +8,7 @@ def oxford_comma(array)
       str+=", "
     end
     if (i+1)==array.count && array.count>1
-      str+="and "
+      str+=" and "
     end
     str+=array[i]
     i+=1
