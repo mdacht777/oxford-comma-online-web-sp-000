@@ -3,7 +3,7 @@ def oxford_comma(array)
   str=""
   puts (i+1)<array.count
   array.each do
-    if (i+1)<array.count
+    if (i+1)==array.count
       str+=" and "
     end
     str+=array[i]
