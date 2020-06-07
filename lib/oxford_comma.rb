@@ -5,10 +5,12 @@ def oxford_comma(array)
   array.each do
     array.index
     if i>0 && array.count>2
-      str+=", "
+      str+=","
     end
     if (i+1)==array.count && array.count>1
       str+=" and "
+    else
+      str+=" "
     end
     str+=array[i]
     i+=1
