@@ -4,6 +4,7 @@ def oxford_comma(array)
   array.each do
     if i>0
       array[i]+=", "
+    end
     i+=1
   end
   str=array.join
