@@ -4,7 +4,9 @@ def oxford_comma(array)
   puts (i+1)<array.count
   array.each do
     array.index
-    if i>0
+    if (i+1)==array.count
+      str+=" and "
+    elsif i>0
       str+=", "
     end
     str+=array[i]
