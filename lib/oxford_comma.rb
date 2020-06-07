@@ -4,8 +4,10 @@ def oxford_comma(array)
   puts (i+1)<array.count
   array.each do
     if i>0
-      if (i+1)==array.count
+      if (i+1)==array.count && array.count==2
         str+=" and "
+      elsif (i+1)==array.count && array.count>2
+        str+=", and "
       else
         str+=", "
       end
