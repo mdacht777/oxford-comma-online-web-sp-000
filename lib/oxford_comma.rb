@@ -5,9 +5,11 @@ def oxford_comma(array)
   array.each do
     if array.count>1
     if (i+1)==array.count
-      str+=" and "
+      str+=", and "
+    else
+      str+=", "
     end
-  end
+    end
     str+=array[i]
     i+=1
   end
