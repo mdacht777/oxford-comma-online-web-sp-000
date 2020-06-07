@@ -4,8 +4,10 @@ def oxford_comma(array)
   array.each do
     if (i+1)<array.count
     array[i]+=", "
-    i+=1
+    elsif (i+1)==array.count
+    array[i]+=" and "
     end
+    i+=1
   end
   str=array.join
   str
