@@ -1,7 +1,6 @@
 def oxford_comma(array)
   i=0
   str=""
-  puts (i+1)<array.count
   array.each do
     if i>0
       if (i+1)==array.count && array.count==2
