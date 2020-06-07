@@ -6,7 +6,7 @@ def oxford_comma(array)
     if array.count>1
     if (i+1)==array.count && array.count==2
       str+=" and "
-    elsif (i+1)==array.count && array.count<2
+    elsif (i+1)==array.count && array.count>2
       str+=", and "
     else
       str+=", "
