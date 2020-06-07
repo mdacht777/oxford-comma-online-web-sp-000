@@ -2,6 +2,7 @@ def oxford_comma(array)
   i=0
   puts (i+1)<array.count
   array.each do
+    array.index
     if i>0
       array[i]+=", "
     end
