@@ -6,6 +6,8 @@ def oxford_comma(array)
     if i>0
       if (i+1)==array.count
         str+=" and "
+      else
+        str+=", "
       end
     end
     str+=array[i]
