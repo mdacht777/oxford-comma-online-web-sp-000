@@ -1,4 +1,7 @@
 def oxford_comma(array)
   i=0
-  puts array.count
+  array.each do
+    array[i]+=", "
+  end
+  array
 end
